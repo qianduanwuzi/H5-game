@@ -14,12 +14,12 @@ npm run serve
 ```
 
 # view  
-- 娃娃机
+- 娃娃机  
  ![image](https://github.com/qianduanwuzi/img/blob/master/gif/clawbaby.gif)
 
-- 刮刮乐
+- 刮刮乐  
  ![image](https://github.com/qianduanwuzi/img/blob/master/gif/scratchcard.gif)
 
-- 砸金蛋
+- 砸金蛋  
  ![image](https://github.com/qianduanwuzi/img/blob/master/gif/crushgoldeneggs.gif)
 
