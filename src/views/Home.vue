@@ -1,18 +1,28 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <component :is="currentComponent"></component>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import pathMap from "@/config/pathMap";
 export default {
   name: "home",
-  components: {
-    HelloWorld
+  components: {},
+  data() {
+    return { pathMap };
+  },
+  computed: {
+    currentComponent() {
+      return () =>
+        import(
+          `./${
+            this.pathMap.find(c => c.temp_id == (this.$route.query.tpl_id || 2))
+              .file_path
+          }/index.vue`
+        );
+    }
   }
 };
 </script>
