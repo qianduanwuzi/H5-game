@@ -1,5 +1,8 @@
 # h5-game
-
+```bash
+#Project description
+娃娃机、刮刮乐、砸金蛋核心动画的实现
+```
 ## Project setup
 ```
 npm install
@@ -10,25 +13,13 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# view  
+> 娃娃机
+ ![image](https://github.com/qianduanwuzi/img/blob/master/gif/clawbaby.gif)
 
-### Run your tests
-```
-npm run test
-```
+> 刮刮乐
+ ![image](https://github.com/qianduanwuzi/img/blob/master/gif/scratchcard.gif)
 
-### Lints and fixes files
-```
-npm run lint
-```
+> 砸金蛋
+ ![image](https://github.com/qianduanwuzi/img/blob/master/gif/crushgoldeneggs.gif)
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
