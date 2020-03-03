@@ -10,8 +10,11 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run serve 
 ```
+
+# tip
+  没有完整的框架构建，只提供页面思路，自行查找对照，tks，页面大致动画逻辑可参考https://juhewin.com/activity
 
 # view  
 - 娃娃机  
@@ -23,3 +26,5 @@ npm run serve
 - 砸金蛋  
  ![image](https://github.com/qianduanwuzi/img/blob/master/gif/crushgoldeneggs.gif)
 
+- 抓粽子  
+ ![image](https://github.com/qianduanwuzi/img/blob/master/gif/dumpling.gif)
