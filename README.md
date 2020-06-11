@@ -1,6 +1,6 @@
 # vue-lottery
 ``` bash
-》 现有H5都已成功上线，经得起大家开箱鉴戒思路
+》 现有H5都已成功上线，经得起大家开箱鉴戒思路，后续会继续放其他类H5
 》 只提供大概页面动画实现思路及其他部分辅助
 ```
 
@@ -24,6 +24,9 @@ http://localhost:8080/home?tplId=10
 http://localhost:8080/home?tplId=9  
 <img src="https://github.com/qianduanwuzi/img/blob/master/gif/H5-GIF-9.gif" width="450" height="600" />  
 
+# tips
+> 由于间接暴露源码，实属不易，放个打赏码~，有问题随时call我，后续会继续放其他类H5，参考https://juhewin.com/activity  
+<img src="https://github.com/qianduanwuzi/img/blob/master/static/wx-ds.jpg" width="250" height="250" />
 
 ## Project setup
 ```
