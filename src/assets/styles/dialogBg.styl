@@ -1,0 +1,121 @@
+@import './common.styl'
+// xxx模板 说明 勿删！---------------------------------- START --------------------------------------------------------
+// ----------------------------------- address、奖品、规则、排行榜弹框 -------------------------------------
+.dialog_container
+  .xxx_dialog_content_box
+    //background ...... 修改弹窗border渐变
+    .xxx_dialog_content_title
+      //border-image ...... 修改弹窗title背景渐变
+
+.address_dialog_container 
+  .xxx_address_dialog_caution
+    //color ...... 修改‘未填写资料或填写错误可能导致无法兑奖哟’颜色
+  .address_dialog_btn_box 
+    .xxx_address_dialog_btn
+      //background ...... 修改按钮领取奖品背景渐变
+
+// ----------------------------------- 奖品详情弹框 -------------------------------------
+.xxx_detail_dialog_container
+  //background ...... 修改详情弹窗背景渐变
+  .detail_dialog_code_down 
+    .xxx_detail_dialog_card_secret
+      //background ...... 修改按钮立即兑换背景渐变
+      //box-shadow ......修改按钮立即兑换阴影
+
+// ----------------------------------- 卡密详情弹框 -------------------------------------
+.xxx_card_dialog_container
+  //background ...... 修改卡密详情背景渐变
+
+// ----------------------------------- 中奖弹窗 -------------------------------------
+.flat_sheet_container
+  .xxx_head_bg_1
+    //background ... 各种情况bg
+  .xxx_head_bg_1_1
+    //background ... 随机
+  .xxx_head_bg_2
+    //background ...
+  .xxx_head_bg_3
+    //background ...
+  .xxx_head_bg_4
+    //background ...
+  .xxx_head_bg_5
+    //background ...
+  .xxx_flat_sheet_title
+    //color ... 修改大title color
+  .xxx_flat_sheet_btn_detail
+    //background linear-gradient(180deg,rgba(64,198,255,1) 0%,rgba(64,158,255,1) 100%) 修改按钮领取奖品渐变
+  .xxx_flat_sheet_btn
+    //color ... 修改正常按钮
+    //border ... 修改正常按钮
+// xxx模板 说明 勿删！---------------------------------- END --------------------------------------------------------
+
+// xxx模板依次往下排列
+// ---------------------------- 模板14 Start ----------------------------
+$color_14 = #F42D2D !important
+$gradient_14 = linear-gradient(180deg,rgba(249,114,64,1) 0%,rgba(244,45,45,1) 100%) !important
+
+.dialog_container
+  .temp14_dialog_content_box
+    background $gradient_14 
+    .temp14_dialog_content_title
+      background $gradient_14 
+.address_dialog_container 
+  .temp14_address_dialog_caution
+    color $color_14 
+  .address_dialog_btn_box 
+    .temp14_address_dialog_btn
+      background $gradient_14 
+
+.temp14_detail_dialog_container
+  background $gradient_14 
+  .detail_dialog_code_down 
+    .temp14_detail_dialog_card_secret
+      background $gradient_14
+      box-shadow 0px 16px 32px 0px $color_14
+
+.temp14_card_dialog_container
+  background $gradient_14 
+
+.flat_sheet_container
+  .temp14_head_bg_1_1
+    background url($img_base_url+'/rewrite_dialog/temp_14/icon_prize_1_1.png') center/354px 252px !important
+  .temp14_head_bg_1_2
+    background url($img_base_url+'/rewrite_dialog/temp_14/icon_prize_1_2.png') center/354px 252px !important
+  .temp14_head_bg_1_3
+    background url($img_base_url+'/rewrite_dialog/temp_14/icon_prize_1_3.png') center/354px 252px !important
+  .temp14_head_bg_1_4
+    background url($img_base_url+'/rewrite_dialog/temp_14/icon_prize_1_4.png') center/354px 252px !important
+  .temp14_flat_sheet_title
+    color $color_14 
+  .temp14_flat_sheet_btn_detail
+    background $gradient_14 
+  .temp14_flat_sheet_btn 
+    border 1px solid $color_14 
+    color $color_14 
+// ---------------------------- 模板14 end ----------------------------
+
+// ---------------------------- 模板24 Start ----------------------------
+$gradient_24 = linear-gradient(180deg, #26adf9 0%, #0267cd 100%) !important
+$detail_gradient_24 = linear-gradient(to bottom, #26adf9, #005ebb) !important
+.dialog_container
+  .temp24_dialog_content_box
+    background $gradient_24 
+    .temp24_dialog_content_title
+      background $gradient_24 
+
+.address_dialog_container 
+  .address_dialog_btn_box 
+    .temp24_address_dialog_btn
+      background $gradient_24 
+      box-shadow 0px 16px 32px 0px rgba(0, 0, 0, .2) !important
+
+.temp24_detail_dialog_container
+  background $detail_gradient_24
+  .detail_dialog_code_down 
+    .temp24_detail_dialog_card_secret
+      background $detail_gradient_24
+      box-shadow 0px 16px 32px 0px rgba(0, 0, 0, .2) !important
+
+.temp24_card_dialog_container
+  background $detail_gradient_24
+// ---------------------------- 模板24 End ----------------------------

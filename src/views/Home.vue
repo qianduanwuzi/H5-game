@@ -1,28 +1,38 @@
 <template>
-  <div class="home">
-    <component :is="currentComponent"></component>
+  <div class="content" >
+      <component :is="currentComponent"></component>
   </div>
 </template>
-
 <script>
-// @ is an alias to /src
-import pathMap from "@/config/pathMap";
+import pathMap from '@/config/pathMap';
 export default {
-  name: "home",
-  components: {},
-  data() {
-    return { pathMap };
+  name: 'Home',
+  components: {
+  },
+  data () {
+    return {
+     pathMap,
+    };                            
   },
   computed: {
-    currentComponent() {
-      return () =>
-        import(
-          `./${
-            this.pathMap.find(c => c.temp_id == (this.$route.query.tpl_id || 2))
-              .file_path
-          }/index.vue`
-        );
-    }
-  }
+    currentComponent () {
+      return () => import(`./${this.pathMap.find(c => c.temp_id == (this.$route.query.tplId || 9)).file_path}/Index.vue`);
+    },
+  
+  },
+  watch: {
+  
+  },
+  created () {
+   
+  },
+  mounted() {
+  },  
+  methods: {
+  }  
 };
 </script>
+
+<style lang="stylus" scoped>
+
+</style>

@@ -1,8 +1,5 @@
-# h5-game
-```bash
-#Project description
-娃娃机、刮刮乐、砸金蛋核心动画的实现
-```
+# vue-lottery
+
 ## Project setup
 ```
 npm install
@@ -10,21 +7,24 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve 
+npm run serve
 ```
 
-# tip
-  没有完整的框架构建，只提供页面思路，自行查找对照，tks，页面大致动画逻辑可参考https://juhewin.com/activity
+### Compiles and minifies for production
+```
+npm run build
+```
 
-# view  
-- 娃娃机  
- ![image](https://github.com/qianduanwuzi/img/blob/master/gif/clawbaby.gif)
+### Run your tests
+```
+npm run test
+```
 
-- 刮刮乐  
- ![image](https://github.com/qianduanwuzi/img/blob/master/gif/scratchcard.gif)
+### Lints and fixes files
+```
+npm run lint
+```
 
-- 砸金蛋  
- ![image](https://github.com/qianduanwuzi/img/blob/master/gif/crushgoldeneggs.gif)
-
-- 抓粽子  
- ![image](https://github.com/qianduanwuzi/img/blob/master/gif/dumpling.gif)
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+"# vue-lottery" 

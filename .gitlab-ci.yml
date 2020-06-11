@@ -1,0 +1,54 @@
+before_script:
+
+stages:
+  - build
+  - dev_preview
+  # - release
+  - deploy
+  - cleanup
+
+npm_build:
+  stage: build
+  script:
+   - npm install
+   - npm run build
+  artifacts:
+    paths:
+      - dist
+  cache:
+    paths:
+      - node_modules
+  only:
+    - master
+  tags: 
+    - advert
+
+develop_preview:
+  stage: dev_preview
+  script:
+    - rm -rf /data/www/nginx/t.apps.juhe.cn/marketing/marketing_lottery/dist
+    - cp -rf dist /data/www/nginx/t.apps.juhe.cn/marketing/marketing_lottery/
+  only:
+    - develop
+  tags: 
+  - juhe_dev
+
+deploy_with_anisble:
+  stage: deploy
+  script:
+    - ansible-playbook -i /root/playbook/alicloud.py /gitlab-runner-project/juhe-gitlab-runner-backend-deploy.yaml --extra-vars "host=tag_app_nginx user=root project_group=${CI_PROJECT_NAMESPACE} project_name=${CI_PROJECT_NAME} commit_id=${CI_COMMIT_SHORT_SHA} project_dir=${CI_PROJECT_DIR}"
+    - echo "Deploy to staging server"
+  only:
+    - master
+  tags: 
+    - advert
+
+cleanup_dist_file:
+  stage: cleanup
+  script:
+    - rm -rf dist
+  only:
+    - master
+  tags: 
+    - advert
+  when: always
