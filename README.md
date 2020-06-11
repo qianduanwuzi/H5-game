@@ -1,4 +1,4 @@
-# vue-lottery
+# H5-game
 ``` bash
 》 现有H5都已成功上线，经得起大家开箱鉴戒思路，后续会继续放其他类H5
 》 只提供大概页面动画实现思路及其他部分辅助
@@ -17,11 +17,11 @@
 ```
 
 # H5-show
-http://localhost:8080/home?tplId=23  
+http://localhost:8080/home?tplId=23  抓粽子  
 <img src="https://github.com/qianduanwuzi/img/blob/master/gif/H5-GIF-23.gif" width="450" height="600" />  
-http://localhost:8080/home?tplId=10  
+http://localhost:8080/home?tplId=10  刮刮乐  
 <img src="https://github.com/qianduanwuzi/img/blob/master/gif/H5-GIF-10.gif" width="450" height="600" />  
-http://localhost:8080/home?tplId=9  
+http://localhost:8080/home?tplId=9  砸金蛋  
 <img src="https://github.com/qianduanwuzi/img/blob/master/gif/H5-GIF-9.gif" width="450" height="600" />  
 
 # tips
