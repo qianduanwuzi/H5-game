@@ -26,7 +26,7 @@ http://localhost:8080/home?tplId=9  砸金蛋
 
 # tips
 > 由于间接暴露源码，实属不易，放个打赏码~，有问题随时call我，后续会继续放其他类H5，参考https://juhewin.com/activity  
-<img src="https://github.com/qianduanwuzi/img/blob/master/static/wx-ds.jpg" width="250" height="250" />
+<img src="https://github.com/qianduanwuzi/img/blob/master/static/wx-ds.jpg" width="350" height="350" />
 
 ## Project setup
 ```
