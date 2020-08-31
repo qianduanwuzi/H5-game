@@ -7,9 +7,11 @@ import componentsArray from "@/config/components";
 componentsArray.forEach(component => {
   Vue.component(component.name, component.instance)
 })
-
-// 注册自定义组件
-
+// import FlatSheet from './components/business/sheet/flatSheet'
+// import FlatDialog from './components/business/dialog/flatDialog'
+// // 注册自定义组件
+// Vue.use(FlatSheet);
+// Vue.use(FlatDialog);
 Vue.config.productionTip = false;
 
 new Vue({
