@@ -25,7 +25,7 @@ http://localhost:8080/home?tplId=9  砸金蛋
 <img src="https://github.com/qianduanwuzi/img/blob/master/gif/H5-GIF-9.gif" width="450" height="600" />  
 
 # tips
-> 实属不易，放个打赏码~，有问题随时call我，后续会继续放其他类H5，参考https://juhewin.com/activity  
+> 实属不易，放个打赏码~，有问题随时call我，后续会继续放其他类H5
 <img src="https://github.com/qianduanwuzi/img/blob/master/static/wx-ds.jpg" width="350" height="350" />
 
 ## Project setup
